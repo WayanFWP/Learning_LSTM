@@ -1,3 +1,7 @@
 numpy
 gym
 torch
+matplotlib
+datetime
+pybullet
+pybullet-data
