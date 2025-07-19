@@ -1,10 +1,10 @@
-from model.network import ActuatorLSTM
+from LSTM_Model.network import ActuatorLSTM
 from train.trainer import Trainer
 from data.preprocess import load_data
 from config import config
 
 def main():
-    train_loader, val_loader = load_data('your_data.csv')
+    train_loader, val_loader = load_data('actuator_data_dummy.csv')
     
     model = ActuatorLSTM(
         input_size=config['input_size'],
